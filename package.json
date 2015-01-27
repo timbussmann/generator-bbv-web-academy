@@ -1,0 +1,13 @@
+{
+  "name": "generator-bbv-web-academy",
+  "version": "0.1.0",
+  "description": "a generator to get started with the bbv web academy exercises",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "timbussmann",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "~0.18.7"
+  }
+}

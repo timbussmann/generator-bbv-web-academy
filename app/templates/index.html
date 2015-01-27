@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>a fancy web application</title>
+    <meta charset="UTF-8">
+
+    <style type="text/css">
+      #container {
+        width: 400px;
+      }
+
+      div.taskBox {
+        margin: 10px 0 10px 0;
+        padding: 5px;
+        border: 1px solid black;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Super fancy TODO list</h1>
+    <div id="container">
+      <div id="taskContainer">
+        <!-- <div class="taskBox">a task to do</div> -->
+      </div>
+      <input type="text" placeholder="put your text here"/>
+      <button>Add Task</button>
+
+      <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+      <script type="text/javascript" src="app.js"></script>
+    </div>
+  </body>
+</html>
